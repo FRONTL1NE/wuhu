@@ -10,6 +10,7 @@
     #container{width:900px;margin:10px auto}
     #menu ul li{display:inline-block;padding:5px 10px}
     #menu ul li hr{display:none}
+    ul{list-style-type:none}
     label{margin:5px;display:block}
     #livevoteContainer .votes{list-style:none;padding-left:20px}
     #livevoteContainer .votes .vote{display:inline-block;box-sizing:border-box;width:32px;height:32px;padding:5px;text-align:center;margin:3px;background:#eee;cursor:pointer}
