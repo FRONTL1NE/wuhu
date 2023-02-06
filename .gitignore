@@ -6,4 +6,4 @@ www_admin/database.inc.php
 www_admin/noscreenshot-*.png
 www_party/database.inc.php
 www_party/prototype.js
-www_party/template.html
+# www_party/template.html

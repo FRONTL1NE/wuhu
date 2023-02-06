@@ -31,20 +31,20 @@ if ($_GET["login"]=="failure")
   echo "<div class='error'>Login failed!</div>";
 ?>
 <form action="<?=build_url("Login")?>" method="post" id='loginForm'>
-<div>
+<p>
   <label for="loginusername">Username:</label>
   <input id="loginusername" name="login" type="text" required='yes' />
-</div>
-<div>
+</p>
+<p>
   <label for="loginpassword">Password:</label>
   <input id="loginpassword" name="password" type="password" required='yes' />
-</div>
-<div>
+</p>
+<p>
   <input type="submit" value="Go!" />
-</div>
-<div>
+</p>
+<p>
   <small>Ask organizers if you lost your password</small>
-</div>
+</p>
 </form>
 <?php
 run_hook("login_end");
