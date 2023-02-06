@@ -42,6 +42,9 @@ if ($_GET["login"]=="failure")
 <div>
   <input type="submit" value="Go!" />
 </div>
+<div>
+  <small>Ask organizers if you lost your password</small>
+</div>
 </form>
 <?php
 run_hook("login_end");
