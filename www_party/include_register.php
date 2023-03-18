@@ -99,27 +99,27 @@ if(!$success)
 ?>
 <form action="<?=build_url("Login")?>" method="post" id='registerForm'>
 <p>
-  <label for="username">Username:</label>
+  <label for="username">ユーザー名 / Username: <b style="color:red">*</b></label>
   <input id="username" name="username" type="text" value="<?=_html($_POST["username"])?>" required='yes'/>
 </p>
 <p>
-  <label for="password">Password:</label>
+  <label for="password">パスワード / Password: <b style="color:red">*</b></label>
   <input id="password" name="password" type="password" required='yes' />
 </p>
 <p>
-  <label for="password2">Password again:</label>
+  <label for="password2">パスワードを再入力 / Password again: <b style="color:red">*</b></label>
   <input id="password2" name="password2" type="password" required='yes' />
 </p>
 <p>
-  <label for="votekey">Votekey: <small>(Ask organizers)</small></label>
+  <label for="votekey">投票キー / Votekey: <b style="color:red">*</b><br /><small>(<a href="https://discord.gg/Jzp84UjuDP" target="_blank" rel="noopener noreferrer">Discord</a>の #votekey-request チャンネルでリクエストしてください)</small></label>
   <input id="votekey" name="votekey" type="text" value="<?=_html($_POST["votekey"])?>" required='yes'/>
 </p>
 <p>
-  <label for="nickname">Nick/Handle:</label>
+  <label for="nickname">ニックネーム / Nick/Handle: <b style="color:red">*</b></label>
   <input id="nickname" name="nickname" type="text" value="<?=_html($_POST["nickname"])?>" required='yes'/>
 </p>
 <p>
-  <label for="group">Group: <small>(if any)</small></label>
+  <label for="group">グループ / Group: <small>(もしあれば / optional)</small></label>
   <input id="group" name="group" type="text" value="<?=_html($_POST["group"])?>"/>
 </p>
 <p>

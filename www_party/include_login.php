@@ -32,20 +32,21 @@ if ($_GET["login"]=="failure")
 ?>
 <form action="<?=build_url("Login")?>" method="post" id='loginForm'>
 <p>
-  <label for="loginusername">Username:</label>
+  <label for="loginusername">ユーザー名 / Username:</label>
   <input id="loginusername" name="login" type="text" required='yes' />
 </p>
 <p>
-  <label for="loginpassword">Password:</label>
+  <label for="loginpassword">パスワード / Password:</label>
   <input id="loginpassword" name="password" type="password" required='yes' />
 </p>
 <p>
   <input type="submit" value="Go!" />
 </p>
 <p>
-  <small>Ask organizers if you lost your password</small>
+  <small>パスワードを忘れた場合、オーガナイザーにお問い合わせください / Ask organizers if you lost your password</small>
 </p>
 </form>
+<hr />
 <?php
 run_hook("login_end");
 ?>
